@@ -74,6 +74,7 @@ p {
 body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
+    background-color: hsl(var(--cream));
 }
 
 .heading-lg {
@@ -204,6 +205,14 @@ body {
     margin-top: -100px;
 }
 
+.footer {
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* -----------------UTILS-------------------- */
 .flex-row {
